@@ -6,7 +6,7 @@ public class MainMenuController : MonoBehaviour
 {
     public void StartNewGame()
     {
-        GameManager.Instance.LoadLevel1();
+        GameManager.Instance.LoadLevel2();
         GameManager.Instance.InitializeGame();
     }
 }
